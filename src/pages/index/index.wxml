@@ -1,0 +1,1 @@
+<view class="login" bind:tap="onRedirect">跳转分包</view>

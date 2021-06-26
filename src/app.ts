@@ -1,0 +1,3 @@
+App<IAppOption>({
+  onLaunch: function () {},
+})

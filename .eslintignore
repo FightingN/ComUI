@@ -1,0 +1,5 @@
+miniprogram/wux
+miniprogram/components/ec-canvas/ec-canvas.js
+src/wux
+src/components/ec-canvas
+src/**/*.wxml

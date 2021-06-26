@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subpackages": [{
+    "root": "subpackages/test",
+    "name": "test",
+    "pages": [
+      "pages/test/test"
+    ]
+  }],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "test"
+      ]
+    }
+  },
+  "usingComponents": {},
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
