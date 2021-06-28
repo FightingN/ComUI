@@ -1,7 +1,7 @@
 {
-  "navigationBarTitleText": "login",
+  "navigationBarTitleText": "ComUI",
   "disableScroll": true,
   "usingComponents": {
-    "card-base": "../../packages/cardBase/cardBase"
+    "card-base": "/packages/cardBase/cardBase"
   }
 }
