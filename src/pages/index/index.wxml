@@ -1,1 +1,4 @@
-<view class="login" bind:tap="onRedirect">跳转分包</view>
+<view class="index" bind:tap="onRedirect">
+  <card-base></card-base>
+  <!-- 跳转分包 -->
+</view>

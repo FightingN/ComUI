@@ -38,9 +38,9 @@
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.10.1",
-  "appid": "wx9c308400d6e861c4",
-  "projectname": "情满长江-工作端",
+  "libVersion": "1.0.0",
+  "appid": "wx47c82cbfc66147b0",
+  "projectname": "ComUI",
   "debugOptions": {
     "hidedInDevtools": []
   },
@@ -64,83 +64,7 @@
       "list": []
     },
     "miniprogram": {
-      "list": [{
-          "id": -1,
-          "name": "党员详情",
-          "pathName": "subpackages/partyerManage/pages/partyerDetail/partyerDetail",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "党员管理",
-          "pathName": "subpackages/partyerManage/pages/index/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "党务管理",
-          "pathName": "subpackages/partyWorkManage/pages/index/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": 3,
-          "name": "党务计划",
-          "pathName": "subpackages/partyWorkPlan/pages/index/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "党务计划-报名情况",
-          "pathName": "subpackages/partyWorkPlan/pages/appySituation/appySituation",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "党建风采",
-          "pathName": "subpackages/partyBuildingStyle/pages/index/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "融合发展",
-          "pathName": "subpackages/fusionDevelopment/pages/index/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "党建风采-发布页面",
-          "pathName": "subpackages/partyBuildingStyle/pages/publish/publish",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "党员论坛",
-          "pathName": "subpackages/partyerForum/pages/index/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "志愿活动",
-          "pathName": "subpackages/voluntaryActivity/pages/index/index",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "政治生日",
-          "pathName": "subpackages/politicalBirthday/pages/index/index",
-          "scene": null
-        }
-      ]
+      "list": []
     }
   }
 }

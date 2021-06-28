@@ -11,7 +11,7 @@
     "new:page": "node ./src/scripts/generatePage type=page",
     "new:component": "node ./src/scripts/generatePage type=component"
   },
-  "author": "lihenian",
+  "author": "zhangxiaoning",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.8.4",
