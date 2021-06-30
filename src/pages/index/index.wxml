@@ -1,4 +1,3 @@
-<view class="index" bind:tap="onRedirect">
-  <card-base></card-base>
-  <!-- 跳转分包 -->
+<view class="index">
+  <card-base baseList="{{baseList}}"></card-base>
 </view>

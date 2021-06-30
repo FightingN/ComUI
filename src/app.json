@@ -5,23 +5,23 @@
     "pages/project/project"
   ],
   "subpackages": [{
-    "root": "subpackages/test",
-    "name": "test",
+    "root": "subpackages/module",
+    "name": "module",
     "pages": [
-      "pages/test/test"
+      "pages/base/base"
     ]
   }],
   "preloadRule": {
     "pages/index/index": {
       "network": "all",
       "packages": [
-        "test"
+        "module"
       ]
     }
   },
   "tabBar": {
     "color": "#7A7E83",
-    "selectedColor": "#3cc51f",
+    "selectedColor": "#1296db",
     "borderStyle": "black",
     "backgroundColor": "#ffffff",
     "list": [{

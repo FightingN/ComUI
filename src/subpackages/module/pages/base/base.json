@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "ComUI",
+  "navigationBarTitleText": "test",
   "usingComponents": {
     "card-base": "/packages/cardBase/cardBase"
   }

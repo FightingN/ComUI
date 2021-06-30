@@ -1,1 +1,10 @@
-<view class="card-base">cardBase组件</view>
+<view class="card-base-box">
+  <view class="card-base" wx:for="{{baseList}}" bind:tap="onTapRedirect" data-pageurl='{{item.pageUrl}}'>
+    <image src="{{item.imgUrl}}" alt="" srcset="" class="base-icon" />
+    <view class="base-content">
+      <view class="base-title">{{item.title}}</view>
+      <view class="base-describe">{{item.subhead}}</view>
+    </view>
+    <image src="{{item.iconUrl}}" alt="" srcset="" class="right-icon" />
+  </view>
+</view>
