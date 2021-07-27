@@ -1,10 +1,10 @@
 <view class="card-base-box">
   <view class="card-base" wx:for="{{baseList}}" bind:tap="onTapRedirect" data-pageurl='{{item.pageUrl}}'>
-    <image src="{{item.imgUrl}}" alt="" srcset="" class="base-icon" />
+    <image src="{{item.imgUrl}}" alt="" srcset="" class="base-icon" wx:if="{{item.visibleImg}}" />
     <view class="base-content">
       <view class="base-title">{{item.title}}</view>
       <view class="base-describe">{{item.subhead}}</view>
     </view>
-    <image src="{{item.iconUrl}}" alt="" srcset="" class="right-icon" />
+    <image src="{{item.iconUrl}}" alt="" srcset="" class="right-icon icon-class" />
   </view>
 </view>

@@ -5,12 +5,21 @@
     "pages/project/project"
   ],
   "subpackages": [{
-    "root": "subpackages/module",
-    "name": "module",
-    "pages": [
-      "pages/base/base"
-    ]
-  }],
+      "root": "subpackages/module",
+      "name": "module",
+      "pages": [
+        "pages/base/base"
+      ]
+    },
+    {
+      "root": "subpackages/navigationPage",
+      "name": "navigationPage",
+      "pages": [
+        "pages/index/index",
+        "pages/tabs/tabs"
+      ]
+    }
+  ],
   "preloadRule": {
     "pages/index/index": {
       "network": "all",

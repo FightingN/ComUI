@@ -1,0 +1,7 @@
+<scroll-view class="tab-item" scroll-x scroll-with-animation="true" bindscrolltoupper="toUpper" bindscrolltolower="toLower" id="scroll-view" scroll-left="{{ scrollLeft }}">
+    <view class="tab-item-sty">
+        <view wx:for="{{typeList}}" wx:key="{{index}}" wx:for-index="index" bindtap="onButtonChange" data-type="{{item.type}}" id="item-{{ item.type }}" data-categoryId="{{item.categoryId}}" class="view-item {{item.select ? 'font-w' : 'font-b'}}">
+            {{item.name}}
+        </view>
+    </view>
+</scroll-view>

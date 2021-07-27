@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "tabs页面",
+  "usingComponents": {
+    "head-line": "/packages/headLine/headLine",
+    "my-tab-item": "/packages/tabItem/tabItem",
+    "my-tab-scroll": "/packages/tabScroll/index"
+  }
+}

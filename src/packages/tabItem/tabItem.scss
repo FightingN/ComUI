@@ -1,0 +1,55 @@
+
+.tab-item {
+    width: calc(100% - 18rpx);
+    padding: 14rpx 9rpx 26rpx 9rpx;
+    background: #fff;
+  }
+
+  .tab-item-sty {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tab-item-sty button {
+    position: relative;
+    display: inline-block;
+    margin: 0 10rpx 0 0;
+    flex-shrink: 0;
+    width: auto !important;
+    height: 52rpx;
+    min-height: 52rpx !important;
+    line-height: 52rpx;
+    border-radius: 30rpx;
+    /* padding: 0 20rpx; */
+    padding: 0 50rpx;
+  
+  }
+  button::after{
+    border: none;
+  }
+  .tab-item-sty .hover-btn {
+    font-size: 30rpx;
+    font-weight: 500;
+    color: #fff;
+    background: #e95027;
+  }
+  .tab-item-sty .font-w {
+    font-size: 30rpx;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(to right, #e95027, #db1a1f);
+  }
+  
+  .tab-item-sty .font-b {
+    background: #ffffff;
+    font-size: 30rpx;
+    font-weight: 500;
+    color: #333333;
+    border: 1rpx solid #DBDBDB;
+  }
+  /* 隐藏滚动条 */
+  ::-webkit-scrollbar{
+      width: 0;
+      height: 0;
+      color: transparent;
+  }
