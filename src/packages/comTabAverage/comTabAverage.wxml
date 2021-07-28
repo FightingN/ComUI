@@ -1,0 +1,5 @@
+<view class="com-tab-average">
+  <view class="tab-item {{item.value===selectTab? 'active':''}}" bind:tap="onClickTab" data-tab='{{item.value}}' wx:for="{{tabList}}">
+    {{item.label}}
+  </view>
+</view>

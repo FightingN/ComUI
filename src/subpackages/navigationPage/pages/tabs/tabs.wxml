@@ -7,4 +7,8 @@
     <head-line title='可滑动的tabs'></head-line>
     <my-tab-scroll></my-tab-scroll>
   </view>
+  <view class="item-scroll" hover-class="none" hover-stop-propagation="false">
+    <head-line title='均分的tabs'></head-line>
+    <com-tab-average></com-tab-average>
+  </view>
 </view>

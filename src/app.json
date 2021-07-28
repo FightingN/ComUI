@@ -18,6 +18,14 @@
         "pages/index/index",
         "pages/tabs/tabs"
       ]
+    },
+    {
+      "root": "subpackages/feedback",
+      "name": "feedback",
+      "pages": [
+        "pages/index/index",
+        "pages/dropDownMenu/dropDownMenu"
+      ]
     }
   ],
   "preloadRule": {

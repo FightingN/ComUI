@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "反馈",
+  "usingComponents": {
+    "card-base": "/packages/cardBase/cardBase"
+  }
+}

@@ -25,7 +25,7 @@ Page({
         id: '3',
         imgUrl: '/assets/ComUI/base/caozuo.png',
         visibleImg: true,
-        pageUrl: '/subpackages/module/pages/base/base',
+        pageUrl: '/subpackages/feedback/pages/index/index',
         iconUrl: '/assets/ComUI/base/right-circle.png',
       },
       {

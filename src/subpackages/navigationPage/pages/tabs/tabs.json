@@ -1,8 +1,9 @@
 {
-  "navigationBarTitleText": "tabs页面",
+  "navigationBarTitleText": "tabs组件",
   "usingComponents": {
     "head-line": "/packages/headLine/headLine",
     "my-tab-item": "/packages/tabItem/tabItem",
-    "my-tab-scroll": "/packages/tabScroll/index"
+    "my-tab-scroll": "/packages/tabScroll/index",
+    "com-tab-average": "/packages/comTabAverage/comTabAverage"
   }
 }

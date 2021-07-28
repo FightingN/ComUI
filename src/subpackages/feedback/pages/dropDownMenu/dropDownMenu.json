@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "下拉框组件",
+  "usingComponents": {
+    "head-line": "/packages/headLine/headLine",
+    "com-drop-down": "/packages/comDropdown/comDropdown"
+  }
+}

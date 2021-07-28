@@ -1,0 +1,3 @@
+<view class="feed-back">
+  <card-base baseList="{{baseList}}" icon-class='icon-class'></card-base>
+</view>
