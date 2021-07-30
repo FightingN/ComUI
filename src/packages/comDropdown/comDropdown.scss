@@ -1,3 +1,71 @@
-.com-drop-down {
+.com-dropdown {
   width: 100%;
+  height: 84rpx;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  display: flex;
+  align-items: center;
+
+
+
+  .condition {
+    width: 100%;
+    height: 64rpx;
+    /* border-radius: 30rpx; */
+    background: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 20rpx;
+    position: relative;
+  }
+
+  .condition .option-list {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    left: 0;
+    top: 60rpx;
+    box-sizing: border-box;
+    background: #f4f4f4;
+    padding: 0rpx 20rpx;
+    margin-top: 4rpx;
+    border-radius: 6rpx;
+    overflow-y: scroll
+  }
+
+  .option-list .list-item {
+    color: #333;
+    font-size: 26rpx;
+    height: 60rpx;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20rpx;
+  }
+
+  .condition .select-condition {
+    /* color: #BABABA; */
+    color: #333;
+    font-size: 26rpx;
+  }
+
+  .condition .trigger {
+    width: 0;
+    height: 0;
+    border: 12rpx solid transparent;
+    border-top: 15rpx solid #c2c2c2;
+    position: relative;
+    top: 8rpx;
+    transform: rotate(0deg);
+    transform-origin: center 7rpx;
+    transition: transform 0.4s;
+  }
+
+  .condition .trigger.reverse {
+    transform: rotate(180deg);
+    transform-origin: center 7rpx;
+    transition: transform 0.4s;
+  }
 }
