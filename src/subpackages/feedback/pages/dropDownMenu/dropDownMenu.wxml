@@ -1,6 +1,10 @@
 <view class="drop-down-menu">
   <view class="item-menu">
-    <head-line title='基础用法cover-view标签'></head-line>
+    <head-line title='基础用法'></head-line>
     <com-drop-down></com-drop-down>
+  </view>
+  <view class="item-menu">
+    <head-line title='基础用法cover-view标签'></head-line>
+    <com-drop-coverview></com-drop-coverview>
   </view>
 </view>

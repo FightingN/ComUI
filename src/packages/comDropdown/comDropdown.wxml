@@ -2,11 +2,11 @@
   <view class="condition" bindtap="showCondition">
     <view class="select-condition">{{choosedCondition.title}}</view>
     <view class="trigger {{ conditionVisible ? 'reverse' : ''}}"></view>
-    <cover-view class="option-list" style="height: {{conditionVisible ? '200rpx': '0'}}">
-      <cover-view bindtap="onChangeCondition" data-id="{{item.id}}" class="list-item" wx:for="{{conditionList}}" wx:key="index" wx:for-index="index">
-        <cover-view class="title">{{item.title}}</cover-view>
-        <cover-view class="title" wx:if="{{item.select}}">√</cover-view>
-      </cover-view>
-    </cover-view>
+    <view class="option-list" style="height: {{conditionVisible ? '200rpx': '0'}}">
+      <view bindtap="onChangeCondition" data-id="{{item.id}}" class="list-item" wx:for="{{conditionList}}" wx:key="index" wx:for-index="index">
+        <view class="title {{item.select?'item-active':''}}">{{item.title}}</view>
+        <view class="icon {{item.select?'item-active':''}}" wx:if="{{item.select}}"></view>
+      </view>
+    </view>
   </view>
 </view>
