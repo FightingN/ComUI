@@ -1,0 +1,10 @@
+<view class="tabs">
+  <view class="item-button" hover-class="none" hover-stop-propagation="false">
+    <head-line title='按钮类型'></head-line>
+    <!-- <view class="">
+      <com-button></com-button>
+      <com-button type='primary'></com-button>
+      <com-button type='warn'></com-button>
+    </view> -->
+  </view>
+</view>

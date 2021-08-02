@@ -26,6 +26,14 @@
         "pages/index/index",
         "pages/dropDownMenu/dropDownMenu"
       ]
+    },
+    {
+      "root": "subpackages/base",
+      "name": "base",
+      "pages": [
+        "pages/index/index",
+        "pages/buttonPage/buttonPage"
+      ]
     }
   ],
   "preloadRule": {

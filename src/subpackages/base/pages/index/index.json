@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "基础",
+  "usingComponents": {
+    "card-base": "/packages/cardBase/cardBase"
+  }
+}

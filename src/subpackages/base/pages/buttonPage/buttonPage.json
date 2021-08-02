@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Button组件",
+  "usingComponents": {
+    "head-line": "/packages/headLine/headLine",
+    "com-button": "/packages/comButton/comButton"
+  }
+}

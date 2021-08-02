@@ -7,7 +7,7 @@ Page({
         id: '1',
         imgUrl: '/assets/ComUI/base/jichu.png',
         visibleImg: true,
-        pageUrl: '/subpackages/module/pages/base/base',
+        pageUrl: '/subpackages/base/pages/index/index',
         iconUrl: '/assets/ComUI/base/right-circle.png',
       },
       {
